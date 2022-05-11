@@ -46,7 +46,7 @@ void database_write(con_t *con);
 void database_create(con_t *con);
 
 
-void row_set(con_t *con, int id, const char *name, const char *email, const ch>
+void row_set(con_t *con, int id, const char *name, const char *email, const char *password);
 
 
 void row_get(con_t *con, int id);
