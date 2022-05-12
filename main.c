@@ -13,7 +13,7 @@ int main(int argc, char* argv[]){
         char action = argv[2][0];
         int id = 0;
 
-        struct connection *con = database_open(filename, action);
+        con_t *con = database_open(filename, action);
 
         if (argc > 3 ){
                 id = atoi(argv[3]);
